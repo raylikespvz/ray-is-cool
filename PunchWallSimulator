@@ -1,0 +1,10 @@
+while true do
+wait()
+local args = {
+    [1] = workspace:WaitForChild("Model"):WaitForChild("Meshes/Axel_Cylinder.052 (1)")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("events-shared/network@GlobalEvents"):WaitForChild("train"):FireServer(unpack(args))
+
+wait(0)
+end
