@@ -1,0 +1,157 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "ArmWrestlingSimulator", HidePremium = false, IntroEnabled = true, IntroText = "Niggers", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local NiggaTab = Window:MakeTab({
+
+	Name = "OPniggas",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "ONECLICK!STRENGTH",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge
+
+}
+
+workspace:WaitForChild("Main"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+  	end    
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "ONECLICK!BICEPS",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge
+
+}
+
+workspace:WaitForChild("Main3"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+      
+
+  	end    
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "ONECLICK!GRIP",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge
+
+}
+
+workspace:WaitForChild("Main2"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+  	end    
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "SPAMMULTI!STRENGTH",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge,
+
+    [2] = 1
+
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("strength"):FireServer(unpack(args))
+
+  	end    
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "SPAMMULTI!BICEP",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge,
+
+    [2] = 1
+
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("bicep"):FireServer(unpack(args))
+
+      
+
+  	end    
+
+})
+
+NiggaTab:AddButton({
+
+	Name = "SPAMMULTI!GRIP",
+
+	Callback = function()
+
+      		local args = {
+
+    [1] = math.huge,
+
+    [2] = 1
+
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("strength"):FireServer(unpack(args))
+
+      
+
+  	end    
+
+})
+
+OrionLib:MakeNotification({
+
+	Name = "Warning!",
+
+	Content = "niggaifudontwantnegativestrengthgomanual",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 110
+
+})
+
+OrionLib:MakeNotification({
+
+	Name = "Made by Ray",
+
+	Content = "@raylikespvz",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 10
+
+})
+
+OrionLib:Init()
