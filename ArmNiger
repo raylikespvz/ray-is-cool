@@ -74,7 +74,7 @@ NiggaTab:AddButton({
 
       		local args = {
 
-    [1] = math.huge,
+    [1] = -math.huge,
 
     [2] = 1
 
@@ -94,7 +94,7 @@ NiggaTab:AddButton({
 
       		local args = {
 
-    [1] = math.huge,
+    [1] = -math.huge,
 
     [2] = 1
 
@@ -116,7 +116,7 @@ NiggaTab:AddButton({
 
       		local args = {
 
-    [1] = math.huge,
+    [1] = -math.huge,
 
     [2] = 1
 
